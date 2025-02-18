@@ -1,0 +1,91 @@
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4a90e2, #9013fe);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .dashboard-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* User Information */
+  .user-info {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 400px;
+    transition: transform 0.3s ease;
+  }
+  
+  .user-info:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Welcome Message */
+  .user-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Strong Text */
+  .user-info strong {
+    font-size: 1.3rem;
+    color: #fcd34d;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .logout-button:hover {
+    background: #e84118;
+    transform: scale(1.1);
+  }
+  
+  /* Loading Message */
+  .loading-message {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .user-info {
+      width: 80%;
+    }
+  
+    .dashboard-container h2 {
+      font-size: 2rem;
+    }
+  
+    .user-info p {
+      font-size: 1rem;
+    }
+  
+    .logout-button {
+      font-size: 0.9rem;
+    }
+  }
+  

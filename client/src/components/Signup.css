@@ -1,0 +1,94 @@
+.signup-container {
+  max-width: 500px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 70%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
+  0 6px 20px rgba(0, 0, 0, 0.19); 
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sign-up-input {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.child-sign-up-input {
+  flex: 1;
+  min-width: 35%;
+  text-align: left;
+}
+.child-sign-up-input label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+.child-sign-up-input input {
+  width: 90%;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+.child-sign-up-input input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.signup-button {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.signup-button:hover {
+  background: linear-gradient(135deg, #0056b3, #007bff);
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 2px;
+}
+.success-message {
+  color: green;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 2px;
+}
+.siwtch-button{
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+  color: blue;
+  cursor: pointer;
+}
+.siwtch-button:hover{
+  text-decoration: underline;
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100vh;
+}
