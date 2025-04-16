@@ -10,7 +10,7 @@ This project is a simple authentication and authorization system built using **R
 
 ## Tech Stack
 - **Frontend:** React.js, React Router, Axios
-- **Backend:** Node.js, Express.js, MongoDB
+- **Backend:** Node.js, Express.js
 - **Authentication:** JWT (JSON Web Token)
 
 ## Installation
