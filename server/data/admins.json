@@ -1,0 +1,14 @@
+{
+  "admins": [
+    {
+      "firstName": "Prince",
+      "lastName": "Maurya",
+      "country": "India",
+      "city": "Mumbai",
+      "contactNumber": 9987742369,
+      "email": "princemaurya8879@gmail.com",
+      "password": "$2b$10$WSsoEEG8QdmnaUWDsAMZre15C5aoPHpk4kZxIdumRIO6dgoceKv2S",
+      "role": "admin"
+    }
+  ]
+}

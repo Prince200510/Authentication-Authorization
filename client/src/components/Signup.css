@@ -18,12 +18,14 @@
   flex-direction: column;
   gap: 15px;
 }
+.select,
 .sign-up-input {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 15px;
 }
+.select,
 .child-sign-up-input {
   flex: 1;
   min-width: 35%;
@@ -36,6 +38,7 @@
   font-size: 14px;
   color: #333;
 }
+.select,
 .child-sign-up-input input {
   width: 90%;
   padding: 10px;

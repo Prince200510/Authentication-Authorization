@@ -2,7 +2,6 @@ import { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import "./Signup.css";
-
 const Signup = () => {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -12,8 +11,9 @@ const Signup = () => {
     country: "",
     city: "",
     contactNumber: "",
+    role: "user",  
   });
-  
+
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
   const [loading, setLoading] = useState(false);
@@ -34,15 +34,12 @@ const Signup = () => {
       setSuccess(res.data.message);
       setTimeout(() => navigate("/login"), 2000);
     } catch (err) {
-      if (!err.response) {
-        setError("Server is down. Please try again later.");
-      } else {
-        setError(err.response.data.message || "Sign up failed");
-      }
+      setError(err.response?.data?.message || "Signup failed");
     }
 
     setLoading(false);
   };
+
 
   return (
     <>
@@ -88,7 +85,7 @@ const Signup = () => {
             <label>Email ID</label>
             <input style={{width: "95%"}} type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
           </div>
-
+          {/* Remove the role selection dropdown */}
           <button type="submit" disabled={loading} className="signup-button">
             {loading ? "Signing up..." : "Sign up"}
           </button>

@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "firstName": "Aaryan",
+      "lastName": "Korida",
+      "country": "India",
+      "city": "Mumbai",
+      "contactNumber": 9987742369,
+      "email": "aaryan@gmail.com",
+      "password": "$2b$10$WSsoEEG8QdmnaUWDsAMZre15C5aoPHpk4kZxIdumRIO6dgoceKv2S",
+      "role": "user"
+    },
+    {
+      "firstName": "Aaryan1",
+      "lastName": "Kordia1",
+      "country": "India",
+      "city": "Kurla",
+      "contactNumber": "09987742369",
+      "email": "aaryan1@gmail.com",
+      "password": "$2b$10$bR7A1RGM.G8sMuqhDy3KeuR03dVctClLKcP5JbzxiAQh3QXEde3Oe",
+      "role": "user"
+    },
+    {
+      "firstName": "Prince",
+      "lastName": "Maurya",
+      "country": "India",
+      "city": "Kurla",
+      "contactNumber": "09987742369",
+      "email": "princemaurya8@gmail.com",
+      "password": "$2b$10$Pv8tsAz2mrQuE1sfaN2bgel/GpTMr/mznIhNi9EByAhqo2b8qIjmu",
+      "role": "user"
+    }
+  ]
+}

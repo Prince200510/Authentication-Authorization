@@ -18,6 +18,7 @@ body{
   flex-direction: column;
   gap: 10px;
 }
+.select,
 .login-input {
   padding: 10px;
   font-size: 16px;
